@@ -1,0 +1,13 @@
+{
+    "totalAmount": "Monto total",
+    "Package upgraded successfully": "Paquete actualizado con éxito",
+    "oldPlan": "Plan antiguo",
+    "Upgrade_Pending": "Actualización pendiente",
+    "upgradeValidity": "Validez (meses)",
+    "currentPlan": "Plan actual",
+    "payNow": "Pagar ahora",
+    "addonComingSoon": "Complemento próximamente",
+    "complete": "Completo",
+    "auto_renewal": "Renovación automática",
+    "Admin_Approval_Pending": "Aprobación de administrador pendiente"
+}

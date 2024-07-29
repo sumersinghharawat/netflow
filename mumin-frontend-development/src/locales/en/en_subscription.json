@@ -1,0 +1,14 @@
+{
+    "totalAmount" : "Total Amount",
+    "Package upgraded successfully" : "Package upgraded successfully",
+    "oldPlan" : "Old Plan",
+    "Upgrade_Pending": "Upgrade Pending",
+    "upgradeValidity" : "Validity (months)",
+    "currentPlan" : "Current Plan",
+    "payNow" : "Pay Now",
+    "addonComingSoon" : "Addon Coming Soon",
+    "complete" : "Complete",
+    "auto_renewal": "Auto Renewal",
+    "Admin_Approval_Pending": "Admin Approval Pending",
+    "are_you_sure_to_cancel_subscription": "Are you sure you want to cancel the subscription"
+}

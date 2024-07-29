@@ -1,0 +1,11 @@
+{
+    "downlineMembers" : "Участники в линии",
+    "genealogyTree"  : "Генеалогическое дерево",
+    "sponsorTree" : "Дерево спонсорства",
+    "treeView" : "Просмотр дерева",
+    "referralMembers" : "Участники рефералов",
+    "totalReferralMembers" : "Всего участников рефералов",
+    "totalLevels" : "Всего уровней",
+    "totalDownlineMembers" : "Всего участников в линии",
+    "count" : "Количество"
+}

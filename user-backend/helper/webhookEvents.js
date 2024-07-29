@@ -1,0 +1,20 @@
+export const subscriptionWebHookEvents = [
+    "BILLING.SUBSCRIPTION.ACTIVATED",
+    "BILLING.SUBSCRIPTION.CANCELLED",
+    "BILLING.SUBSCRIPTION.CREATED", // 	A subscription is created.
+    "BILLING.SUBSCRIPTION.EXPIRED",
+    "BILLING.SUBSCRIPTION.PAYMENT.FAILED",
+    "BILLING.SUBSCRIPTION.RE-ACTIVATED",
+    "BILLING.SUBSCRIPTION.SUSPENDED",
+    "BILLING.SUBSCRIPTION.UPDATED",
+    "PAYMENT.SALE.COMPLETED", // A payment is made on a subscription.
+    "PAYMENT.SALE.REFUNDED", //	A merchant refunds a sale.
+    "PAYMENT.SALE.REVERSED", // A payment is reversed on a subscription.
+    "BILLING.PLAN.CREATED", // 	A billing plan is created.
+    "BILLING.PLAN.UPDATED",
+    "BILLING.PLAN.ACTIVATED",
+    "BILLING.PLAN.PRICING-CHANGE.ACTIVATED",
+    "BILLING.PLAN.DEACTIVATED",
+    "CATALOG.PRODUCT.CREATED", // A product is created.
+    "CATALOG.PRODUCT.UPDATED",
+]

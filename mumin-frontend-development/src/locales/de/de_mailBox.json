@@ -1,0 +1,12 @@
+{
+    "mailBox": "Postfach",
+    "compose": "Verfassen",
+    "inbox": "Posteingang",
+    "send": "Senden",
+    "reply": "Antworten",
+    "replyAll": "Allen antworten",
+    "forward": "Weiterleiten",
+    "delete": "Löschen",
+    "admin_inbox": "Admin-Posteingang",
+    "replica_inbox": "Replikat-Posteingang"
+}

@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => 'Дата вступления',
+    'left' => 'Оставил',
+    'right' => 'Верно',
+    'left_carry' => 'Левый керри',
+    'right_carry' => 'Правый керри',
+    'personal_pv' => 'Личный PV',
+    'group_pv' => 'Групповое PV',
+    'geanolgy_tree' => 'Генеалогическое дерево',
+    'downline_members' => 'Нисходящие члены',
+    'change_placement' => 'Изменить место размещения',
+    'sponsor_tree' => 'Спонсорское дерево',
+    'referral_members' => 'Рефералы',
+    'select_username' => 'Выберите имя пользователя',
+    'select_new_placement' => 'Выберите новое место размещения',
+    'select_new_position' => 'Выберите новую позицию',
+    'change' => 'Изменять',
+    'cant_change_admin_placement' => 'Не могу изменить место администратора',
+    'choose_another_placement' => 'Выбрать другое место размещения',
+    'cant_select_downline_as_placement' => 'Невозможно выбрать нижестоящую линию в качестве места размещения',
+    'select_new_sponsor' => 'Выберите нового спонсора',
+    'change_sponsor' => 'Изменить спонсора',
+    'tree_view' => 'В виде дерева',
+    'total_downline_members' => 'Всего нижних членов',
+    'total_levels' => 'Всего уровней',
+    'joining_date' => 'Дата вступления',
+    'total_referral_downline' => 'Всего нижестоящих рефералов',
+
+];

@@ -1,0 +1,12 @@
+{
+    "mailBox": "Skrzynka pocztowa",
+    "compose": "Napisz",
+    "inbox": "Odebrane",
+    "send": "Wyślij",
+    "reply": "Odpowiedz",
+    "replyAll": "Odpowiedz wszystkim",
+    "forward": "Prześlij",
+    "delete": "Usuń",
+    "admin_inbox": "Skrzynka administratora",
+    "replica_inbox": "Skrzynka repliki"
+}

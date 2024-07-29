@@ -1,0 +1,28 @@
+<?php
+
+return [
+    'referral_commission' => "Comissão de Referência",
+    'level_commission' => "Comissão de nível",
+    'binary_commission' => "Comissão Binária",
+    'stair_step' => "Comissão de degraus de escada",
+    'donation' => "Doação",
+    'rank' => "Comissão de classificação",
+    'pool_bonus' => "Bônus de pool",
+    'roi' => "Rei",
+    'fast_start_bonus' => "Bônus de início rápido",
+    'performance_bonus' => "Bônus de performance",
+    'update_upline_rank' => "Atualizar classificação upline",
+    'sales_commission' => "Comissão de vendas",
+    'commission' => "Comissão",
+    'initialized' => "Inicializado",
+    'processing' => "Em processamento",
+    'success' => "Sucesso",
+    'failed' => "Fracassado",
+    'overall' => "Geral",
+    'Na' => "N / D",
+    'rank_bonus' => "Bônus de classificação",
+    'binary' => "Comissão Binária",
+    'level' => "Comissão de nível",
+    'referral' => "Comissão de Referência",
+    'reentry_commission' => "Comissão de Reentrada",
+];

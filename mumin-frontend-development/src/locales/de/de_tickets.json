@@ -1,0 +1,21 @@
+{
+  "ticket_id": "Ticket-ID",
+  "priority": "Priorität",
+  "subject": "Betreff",
+  "assignee": "Zuständiger",
+  "created_on": "Erstellt am",
+  "last_updated": "Zuletzt aktualisiert",
+  "timeline": "Zeitleiste",
+  "search": "Suche",
+  "reset": "Zurücksetzen",
+  "create_ticket": "Ticket erstellen",
+  "my_ticket": "Mein Ticket",
+  "message_to_admin": "Nachricht an Administrator",
+  "attachment": "Anhang",
+  "ticket_status": "Ticket-Status",
+  "ticket_details": "Ticket-Details",
+  "support": "Support",
+  "ticket": "Ticket",
+  "ticket_created_successfully": "Ticket erfolgreich erstellt",
+  "ticket_attachments": "Ticket-Anhänge"
+}

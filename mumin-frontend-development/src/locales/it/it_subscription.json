@@ -1,0 +1,13 @@
+{
+    "totalAmount": "Importo totale",
+    "Package upgraded successfully": "Pacchetto aggiornato con successo",
+    "oldPlan": "Vecchio piano",
+    "Upgrade_Pending": "Aggiornamento in sospeso",
+    "upgradeValidity": "Validità (mesi)",
+    "currentPlan": "Piano attuale",
+    "payNow": "Paga ora",
+    "addonComingSoon": "Addon presto disponibile",
+    "complete": "Completo",
+    "auto_renewal": "Rinnovo automatico",
+    "Admin_Approval_Pending": "Approvazione dell'amministratore in sospeso"
+}

@@ -1,0 +1,12 @@
+{
+    "mailBox": "Posta Kutusu",
+    "compose": "Oluştur",
+    "inbox": "Gelen Kutusu",
+    "send": "Gönder",
+    "reply": "Cevapla",
+    "replyAll": "Herkese Cevapla",
+    "forward": "İlet",
+    "delete": "Sil",
+    "admin_inbox": "Yönetici Gelen Kutusu",
+    "replica_inbox": "Kopya Gelen Kutusu"
+}

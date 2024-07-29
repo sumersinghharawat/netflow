@@ -1,0 +1,18 @@
+{
+    "mailBox": "Mailbox",
+    "compose": "Compose",
+    "inbox": "Inbox",
+    "send": "Send",
+    "reply": "Reply",
+    "replyAll": "Reply All",
+    "forward": "Forward",
+    "delete": "Delete",
+    "admin_inbox": "Admin Inbox",
+    "replica_inbox": "Replica Inbox",
+    "new_mail": "New Mail",
+    "sent": "Send",
+    "adminInbox" : "Admin Inbox",
+    "replicaInbox" : "Replica Inbox",
+    "Mail_Body_Is_Empty": "Mail Body Is Empty",
+    "noMailSelected": "Select at least one email"
+}

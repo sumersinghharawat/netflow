@@ -1,0 +1,21 @@
+{
+    "ticket_id": "ID Ticket",
+    "priority": "Priorità",
+    "subject": "Oggetto",
+    "assignee": "Assegnatario",
+    "created_on": "Creato il",
+    "last_updated": "Ultimo Aggiornamento",
+    "timeline": "Cronologia",
+    "search": "Ricerca",
+    "reset": "Ripristina",
+    "create_ticket": "Crea Ticket",
+    "my_ticket": "I Miei Ticket",
+    "message_to_admin": "Messaggio all'Amministratore",
+    "attachment": "Allegato",
+    "ticket_status": "Stato del Ticket",
+    "ticket_details": "Dettagli del Ticket",
+    "support": "Supporto",
+    "ticket": "Ticket",
+    "ticket_created_successfully": "Ticket creato con successo",
+    "ticket_attachments": "Allegati del Ticket"
+}

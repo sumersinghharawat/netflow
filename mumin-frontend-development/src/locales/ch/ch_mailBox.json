@@ -1,0 +1,12 @@
+{
+    "mailBox": "邮箱",
+    "compose": "撰写",
+    "inbox": "收件箱",
+    "send": "发送",
+    "reply": "回复",
+    "replyAll": "全部回复",
+    "forward": "转发",
+    "delete": "删除",
+    "admin_inbox": "管理员收件箱",
+    "replica_inbox": "复制收件箱"
+}

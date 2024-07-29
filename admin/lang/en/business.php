@@ -1,0 +1,78 @@
+<?php
+
+return [
+
+    'business' => 'Business',
+    'income' => 'Income',
+    'bonus' => 'Bonus',
+    'paid' => 'Paid',
+    'pending' => 'Pending',
+    'profit' => 'Profit',
+    'business_transaction' => 'Business Transaction',
+    'business_summary' => 'Business Summary',
+    'joiningFee' => 'Registration Fee',
+    'registerAmount' => 'Package Amount',
+    'orderAmount' => 'Purchase Amount',
+    'upgradeAmount' => 'Package Upgrade',
+    'fundTransferAmount' => 'Fund Transfer Fee',
+    'payoutFeeAmount' => 'Payout Fee',
+    'serviceChargeAmount' => 'Commission Charges',
+    'rank_bonus' => 'Rank Commission',
+    'matching_bonus' => 'Matching Bonus',
+    'level_commission' => 'Level Commission',
+    'leg' => 'Binary Commission',
+    'pool_bonus' => 'Pool Bonus',
+    'fast_start_bonus' => 'Fast Start Bonus',
+    'car_fund' => 'Car Fund',
+    'education_fund' => 'Education Fund',
+    'vacation_fund' => 'Vacation Fund',
+    'house_fund' => 'House Fund',
+    'paid' => 'Paid',
+    'fund_transfer_fee' => 'Fund Transfer Fee',
+    'commission_charge' => 'Commission Charge',
+    'payout_fee' => 'Payout Fee',
+    'joining_fee' => 'Joining Fee',
+    'register' => 'Register Fee',
+    'purchase' => 'Purchase Amount',
+    'upgrade' => 'Package Upgrade Amount',
+    'repurchase_level_commision' => 'Repurchase Level Commission',
+    'upgrade_level_commission' => 'Upgrade Level Commission',
+    'car-fund' => 'Car Fund',
+    'vacation-fund' => 'Vacation Fund',
+    'education-fund' => 'Education Fund',
+    'referral' => 'Referral',
+    'house-fund' => 'House Fund',
+    'commission_charge' => 'Commission Charge',
+    'matching_bonus' => 'Matching Bonus',
+    'level_commission' => 'Level Commission',
+    'referral' => 'Referral Commission',
+    'vacation_fund' => 'Vacation Fund',
+    'rank_bonus' => 'Rank Bonus',
+    'education_fund' => 'Education Fund',
+    'leg' => 'Binary Commission',
+    'payout_approved_paid' => 'Payout - Paid',
+    'payout_requests_pending' => 'Payout - Pending Request',
+    'xup_commission' => 'X-up Commission',
+
+    // Nov 262022
+    'all_productamount_including_reg_fee_payoutfee_trans_fee_service_charge' => 'All products amount including Reg.fee,Trans.fee,Payout fee and Service Chagres',
+    'all_earned_commissions' => 'All Earned Commissions',
+    'paid_payouts' => 'Paid Payout',
+    'pending_payout' => 'Pending Payout',
+    'total_income_profit' => 'Total Income - Total Paid',
+
+    //jan2023
+    'sales_commission' => 'Sales Commission',
+    'stair_step' => 'Stair Step',
+    'override_bonus' => 'Override Bonus',
+    'renewalAmount' => 'Renewal Amount',
+
+    // 28 mar 2023
+    'payout_approved_pending' => 'Payout Approve Pending',
+    'matching_bonus_purchase' => 'Repurchase Matching Bonus',
+    'repurchase_leg'    => 'Repurchase Binary',
+
+    //04 Aug 2023
+    'daily_investment' => 'Daily Investment',
+    'trans_fee' => 'Fund Transfer Fee'
+];

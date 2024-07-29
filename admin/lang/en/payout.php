@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'payout' => 'Payout',
+    'pending' => 'Pending',
+    'approved' => 'Approved',
+    'paid' => 'Paid',
+    'rejected' => 'Rejected',
+    'payout_summary' => 'Payout Summary',
+    'payout_release' => 'Payout Release',
+    'process_payment' => 'Process Payment',
+    'invoice_number' => 'Invoice Number',
+    'payout_method' => 'Payout Method',
+    'paid_date' => 'Paid Date',
+    'rejected_date' => 'Rejected Date',
+    'user_request' => 'User Request',
+    'manual' => 'Manual',
+    'kyc_verified' => 'Kyc Verified',
+    'kyc_unverified' => 'KYC Unverified',
+    'payout_amount' => 'Payout Amount',
+    'payout_method' => 'Payout Method',
+    'payout_type' => 'Payout Type',
+    'kyc_not_upload' => 'Kyc Not Uploaded for',
+    'low_balance' => 'Low Balance. Payout Release Failed.',
+    'cant_release_amount' => "You can't release this amount for ",
+    'releaese_success' => 'payout released successfully',
+    'requestDeleteSuccess' => 'Payout Request Deleted Successfully',
+    'mark_as_paid' => 'payout marked as paid',
+    'approved_date' => 'Approved Date',
+    'payout_released' => "Payout Released",
+    'kyc_configuration' => 'KYC Configuration',
+    'paypal_email_not_provided' => 'Pay email of :username not provided',
+    'not_enough_payapal_balance' => 'Not Enough Paypal Balance !!',
+    'stripe_account_not_provided' => 'stripe account not provided for :username',
+    'not_enough_stripe_balance' => 'Not Enough Stripe Balance !!',
+    'incomplete_stripe_account_details_for'  =>  'Incomplete Stripe Account Details for :username',
+
+    // 2 Aprl 2023
+    'approve_payment_notification' => 'Please wait, Your transaction is processing'
+];

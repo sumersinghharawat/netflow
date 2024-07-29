@@ -1,0 +1,94 @@
+.custom-demo-bg {
+    width: 100%;
+    background: url("/assets/images/layouts/layout-light.png");
+    height: 100vh;
+    opacity: 0.5;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+.first_step {
+    animation: first_step 4s normal forwards;
+}
+
+@keyframes first_step {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+.second_step {
+    animation: second_step 4s normal forwards;
+}
+
+@keyframes second_step {
+    0% {
+        width: 20%;
+    }
+
+    100% {
+        width: 40%;
+    }
+}
+
+.third_step {
+    animation: third_step 4s normal forwards;
+}
+
+@keyframes third_step {
+    0% {
+        width: 40%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.fourth_step {
+    animation: fourth_step 4s normal forwards;
+}
+
+@keyframes fourth_step {
+    0% {
+        width: 60%;
+    }
+    100% {
+        width: 80%;
+    }
+}
+
+.fifth_step {
+    animation: fifth_step 4s normal forwards;
+}
+
+@keyframes fifth_step {
+    0% {
+        width: 80%;
+    }
+    100% {
+        width: 90%;
+    }
+}
+
+.final_step {
+    animation: final_step 4s normal forwards;
+}
+
+@keyframes final_step {
+    0% {
+        width: 90%;
+    }
+    100% {
+        width: 99%;
+    }
+}
+
+.skip-button {
+    background-color: #FF3131 !important;
+    border-color: #FF3131 !important;
+}

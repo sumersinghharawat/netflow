@@ -1,0 +1,13 @@
+{
+    "totalAmount": "总金额",
+    "Package upgraded successfully": "套餐成功升级",
+    "oldPlan": "旧计划",
+    "Upgrade_Pending": "升级待定",
+    "upgradeValidity": "有效期（月）",
+    "currentPlan": "当前计划",
+    "payNow": "立即支付",
+    "addonComingSoon": "附加组件即将推出",
+    "complete": "完成",
+    "auto_renewal": "自动续订",
+    "Admin_Approval_Pending": "等待管理员批准"
+}

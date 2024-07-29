@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => 'Data dołączenia',
+    'left' => 'Lewy',
+    'right' => 'Prawidłowy',
+    'left_carry' => 'Lewy Carry',
+    'right_carry' => 'Prawo Carry',
+    'personal_pv' => 'Osobisty PV',
+    'group_pv' => 'Grupa PV',
+    'geanolgy_tree' => 'Drzewo genealogiczne',
+    'downline_members' => 'Członkowie downline',
+    'change_placement' => 'Zmień miejsce docelowe',
+    'sponsor_tree' => 'Drzewo sponsora',
+    'referral_members' => 'Polecani członkowie',
+    'select_username' => 'Wybierz nazwę użytkownika',
+    'select_new_placement' => 'Wybierz nowe miejsce docelowe',
+    'select_new_position' => 'Wybierz nową pozycję',
+    'change' => 'Zmiana',
+    'cant_change_admin_placement' => 'Nie można zmienić miejsca docelowego administratora',
+    'choose_another_placement' => 'Wybierz inne miejsce docelowe',
+    'cant_select_downline_as_placement' => 'Nie można wybrać sieci downline jako miejsca docelowego',
+    'select_new_sponsor' => 'Wybierz nowego sponsora',
+    'change_sponsor' => 'Zmień sponsora',
+    'tree_view' => 'Widok drzewa',
+    'total_downline_members' => 'Całkowita liczba członków downline',
+    'total_levels' => 'Suma poziomów',
+    'joining_date' => 'Data dołączenia',
+    'total_referral_downline' => 'Łączna liczba poleconych linii podrzędnych',
+
+];

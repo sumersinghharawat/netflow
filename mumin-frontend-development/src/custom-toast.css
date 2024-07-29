@@ -1,0 +1,8 @@
+.Toastify__toast-theme--colored.Toastify__toast--error {
+  background-color: #aa2617; /* Change the background color to red or any color you prefer */
+  color: white; /* Change the text color */
+}
+.Toastify__toast-theme--colored.Toastify__toast--success {
+  background-color: #108114; /* Change the background color to red or any color you prefer */
+  color: white; /* Change the text color */
+}

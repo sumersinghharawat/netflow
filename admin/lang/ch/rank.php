@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'rank_settings' => '排名设置',
+    'rank_calculation_period' => '排名计算周期',
+    'rank_criteria' => '排名标准',
+    'referral-count' => '推荐计数',
+    'personal-pv' => '个人光伏',
+    'group-pv' => '集团光伏',
+    'joiner-package' => '细木工包',
+    'downline-member-count' => '下线成员数',
+    'downline-package-count' => '下线包裹数',
+    'downline-rank-count' => '下线排名计数',
+    'rank_details' => '排名详情',
+    'add_rank' => '添加排名',
+    'name' => '等级名称',
+    'package_name' => '包裹名字',
+    'commission' => '排名佣金',
+    'color' => '等级颜色',
+    'badge' => '徽章',
+    'rank_config_update' => '等级配置更新',
+    'image_upload_failed' => '排名图片上传失败。',
+    'creation_success' => '排名创建成功',
+    'upload_failed' => '排名图片上传失败。',
+    'update_success' => '排名更新成功',
+    'status_change' => '等级状态更改成功。',
+    'minimum_count_of_downline_members_with_package' => '带包的下线成员的最低数量 -',
+    'minimum_count_of_downline_members_with_rank' => '具有等级的下线成员的最小数量 -',
+    'rank_achieve_bonus' => '排名达到奖金',
+    'edit' => '编辑排名',
+    'add' => '添加新排名',
+    'rank_description' => '在这里，您可以配置系统等级及其标准。等级计算周期：您可以将等级计算设置为即时、每日、每周、每月或每年。您可以启用或禁用不同的标准，如推荐数量、个人PV、团队PV等等... 您还可以根据需要添加、编辑和删除等级。',
+    'creation_error' => '等级创建失败，请重试。',
+
+
+];

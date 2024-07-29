@@ -1,0 +1,19 @@
+{
+  "level_of_interest": "مستوى الاهتمام",
+  "next_followup_date": "تاريخ المتابعة التالي",
+  "lead_status": "حالة الرصد",
+  "skype": "سكايب",
+  "lead_view": "عرض الرصد",
+  "edit_lead": "تعديل الرصد",
+  "Lead_Updated_Successfully": "تم تحديث الرصد بنجاح",
+  "edit": "تعديل",
+  "very_interested": "مهتم جداً",
+  "interested": "مهتم",
+  "not_that_interested": "ليس مهتمًا كثيرًا",
+  "search": "بحث",
+  "“Connecting Dreams, Growing Together”": "“ربط الأحلام، النمو معًا”",
+  "formIntro": "خذ الخطوة الأولى نحو نجاح التسويق الهرمي عن طريق ملء هذا النموذج!",
+  "fillTheForm": "املأ النموذج أدناه",
+  "emailAddress": "عنوان البريد الإلكتروني",
+  "submit": "إرسال"
+}

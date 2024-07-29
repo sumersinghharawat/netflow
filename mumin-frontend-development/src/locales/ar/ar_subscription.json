@@ -1,0 +1,13 @@
+{
+    "totalAmount": "المبلغ الإجمالي",
+    "Package upgraded successfully": "تم ترقية الحزمة بنجاح",
+    "oldPlan": "الخطة القديمة",
+    "Upgrade_Pending": "ترقية معلقة",
+    "upgradeValidity": "الصلاحية (شهور)",
+    "currentPlan": "الخطة الحالية",
+    "payNow": "ادفع الآن",
+    "addonComingSoon": "الإضافة قادمة قريباً",
+    "complete": "اكتمال",
+    "auto_renewal": "التجديد التلقائي",
+    "Admin_Approval_Pending": "انتظار موافقة المشرف"
+}

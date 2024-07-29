@@ -1,0 +1,12 @@
+{
+    "mailBox": "Boîte aux Lettres",
+    "compose": "Composer",
+    "inbox": "Boîte de Réception",
+    "send": "Envoyer",
+    "reply": "Répondre",
+    "replyAll": "Répondre à Tous",
+    "forward": "Transférer",
+    "delete": "Supprimer",
+    "admin_inbox": "Boîte de Réception de l'Admin",
+    "replica_inbox": "Boîte de Réception de la Réplique"
+}

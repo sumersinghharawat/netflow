@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => "Date d'inscription",
+    'left' => 'La gauche',
+    'right' => 'Droit',
+    'left_carry' => 'Transport à gauche',
+    'right_carry' => 'Transport droit',
+    'personal_pv' => 'PV personnel',
+    'group_pv' => 'PV de groupe',
+    'geanolgy_tree' => 'Arbre généalogique',
+    'downline_members' => 'Membres en aval',
+    'change_placement' => "Changer d'emplacement",
+    'sponsor_tree' => 'Arbre de parrainage',
+    'referral_members' => 'Membres de référence',
+    'select_username' => "Sélectionnez le nom d'utilisateur",
+    'select_new_placement' => 'Sélectionnez un nouvel emplacement',
+    'select_new_position' => 'Sélectionnez un nouveau poste',
+    'change' => 'Changer',
+    'cant_change_admin_placement' => "Impossible de modifier le placement de l'administrateur",
+    'choose_another_placement' => 'Choisissez un autre emplacement',
+    'cant_select_downline_as_placement' => 'Impossible de sélectionner Downline comme placement',
+    'select_new_sponsor' => 'Sélectionnez un nouveau parrain',
+    'change_sponsor' => 'Changer de parrain',
+    'tree_view' => 'Arborescence',
+    'total_downline_members' => 'Total des membres en aval',
+    'total_levels' => 'Niveaux totaux',
+    'joining_date' => "Date d'inscription",
+    'total_referral_downline' => 'Nombre total de filleuls référés',
+
+];

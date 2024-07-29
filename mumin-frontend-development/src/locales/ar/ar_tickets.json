@@ -1,0 +1,21 @@
+{
+  "ticket_id": "معرف التذكرة",
+  "priority": "الأولوية",
+  "subject": "الموضوع",
+  "assignee": "المسؤول",
+  "created_on": "تم الإنشاء في",
+  "last_updated": "آخر تحديث",
+  "timeline": "الجدول الزمني",
+  "search": "بحث",
+  "reset": "إعادة تعيين",
+  "create_ticket": "إنشاء تذكرة",
+  "my_ticket": "تذكرتي",
+  "message_to_admin": "رسالة إلى المسؤول",
+  "attachment": "المرفقات",
+  "ticket_status": "حالة التذكرة",
+  "ticket_details": "تفاصيل التذكرة",
+  "support": "الدعم",
+  "ticket": "تذكرة",
+  "ticket_created_successfully": "تم إنشاء التذكرة بنجاح",
+  "ticket_attachments": "مرفقات التذكرة"
+}

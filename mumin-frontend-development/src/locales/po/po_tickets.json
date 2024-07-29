@@ -1,0 +1,21 @@
+{
+  "ticket_id": "ID zgłoszenia",
+  "priority": "Priorytet",
+  "subject": "Temat",
+  "assignee": "Przypisane do",
+  "created_on": "Utworzono",
+  "last_updated": "Ostatnia aktualizacja",
+  "timeline": "Oś czasu",
+  "search": "Szukaj",
+  "reset": "Resetuj",
+  "create_ticket": "Utwórz zgłoszenie",
+  "my_ticket": "Moje zgłoszenia",
+  "message_to_admin": "Wiadomość do Administratora",
+  "attachment": "Załącznik",
+  "ticket_status": "Status zgłoszenia",
+  "ticket_details": "Szczegóły zgłoszenia",
+  "support": "Wsparcie",
+  "ticket": "Zgłoszenie",
+  "ticket_created_successfully": "Zgłoszenie utworzone pomyślnie",
+  "ticket_attachments": "Załączniki zgłoszenia"
+}

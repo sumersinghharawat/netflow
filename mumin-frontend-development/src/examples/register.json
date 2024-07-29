@@ -1,0 +1,233 @@
+{
+    "status": true,
+    "data": {
+        "registrationSteps": [
+            {
+                "step": "01",
+                "label": "pick_your_products"
+            },
+            {
+                "step": "02",
+                "label": "contact_information"
+            },
+            {
+                "step": "03",
+                "label": "login_information"
+            },
+            {
+                "step": "04",
+                "label": "over_view"
+            },
+            {
+                "step": "05",
+                "label": "payment"
+            }
+        ],
+        "sponsorData": {
+            "id": 4,
+            "username": "tester1",
+            "email": "xihyfefetu@mailinator.com",
+            "defaultLang": 1,
+            "UserDetail": {
+                "fullName": "Keiko "
+            }
+        },
+        "placementData": {},
+        "regPack": [
+            {
+                "id": 1,
+                "name": "Membership Pack1",
+                "type": "registration",
+                "active": 1,
+                "productId": "product-1",
+                "price": 100,
+                "bvValue": 50,
+                "pairValue": 50,
+                "quantity": 0,
+                "referralCommission": 2,
+                "pairPrice": 5,
+                "image": null,
+                "roi": 10,
+                "description": null,
+                "days": 5,
+                "validity": 5,
+                "joineeCommission": 0,
+                "categoryId": null,
+                "treeIcon": "",
+                "createdAt": "2023-09-13T14:44:23.000Z",
+                "updatedAt": "2023-09-13T14:44:23.000Z"
+            },
+            {
+                "id": 2,
+                "name": "Membership Pack2",
+                "type": "registration",
+                "active": 1,
+                "productId": "product-2",
+                "price": 300,
+                "bvValue": 50,
+                "pairValue": 100,
+                "quantity": 0,
+                "referralCommission": 5,
+                "pairPrice": 7,
+                "image": null,
+                "roi": 10,
+                "description": null,
+                "days": 5,
+                "validity": 3,
+                "joineeCommission": 0,
+                "categoryId": null,
+                "treeIcon": "http://192.168.6.88:360/storage/treeIcon/treeIcon-21695022371.jpeg",
+                "createdAt": "2023-09-13T14:44:23.000Z",
+                "updatedAt": "2023-09-18T07:32:51.000Z"
+            },
+            {
+                "id": 3,
+                "name": "Membership Pack3",
+                "type": "registration",
+                "active": 1,
+                "productId": "product-3",
+                "price": 500,
+                "bvValue": 50,
+                "pairValue": 150,
+                "quantity": 0,
+                "referralCommission": 8,
+                "pairPrice": 10,
+                "image": null,
+                "roi": 10,
+                "description": null,
+                "days": 5,
+                "validity": 4,
+                "joineeCommission": 0,
+                "categoryId": null,
+                "treeIcon": "",
+                "createdAt": "2023-09-13T14:44:23.000Z",
+                "updatedAt": "2023-09-13T14:44:23.000Z"
+            }
+        ],
+        "contactInformation": {
+            "contactField": [
+                {
+                    "code": "first_name",
+                    "type": "text",
+                    "required": 1,
+                    "editable": 0
+                },
+                {
+                    "code": "date_of_birth",
+                    "type": "date",
+                    "required": 0,
+                    "editable": 0,
+                    "options": [
+                        {
+                            "validation": {
+                                "ageLimit": 18
+                            }
+                        }
+                    ]
+                },
+                {
+                    "code": "gender",
+                    "type": "text",
+                    "required": 1,
+                    "editable": 0,
+                    "options": [
+                        {
+                            "code": "male",
+                            "title": "Male",
+                            "value": "M"
+                        },
+                        {
+                            "code": "female",
+                            "title": "Female",
+                            "value": "F"
+                        },
+                        {
+                            "code": "other",
+                            "title": "Others",
+                            "value": "O"
+                        }
+                    ]
+                },
+                {
+                    "code": "email",
+                    "type": "email",
+                    "required": 1,
+                    "editable": 0
+                },
+                {
+                    "code": "mobile",
+                    "type": "number",
+                    "required": 1,
+                    "editable": 0
+                }
+            ],
+            "customField": []
+        },
+        "loginInformation": [
+            {
+                "code": "username",
+                "type": "text",
+                "validation": {
+                    "min": 20,
+                    "max": 6
+                }
+            },
+            {
+                "code": "password",
+                "type": "password",
+                "validation": {
+                    "minLength": 8
+                }
+            }
+        ],
+        "termsAndCondition": {
+            "id": 1,
+            "termsAndConditions": "All subscribers of SOFTWARE NAME services agree to be bound by the terms of this service. The SOFTWARE NAME software is an entire solution for all type of business plan like Binary, Matrix, Unilevel and many other compensation plans. This is developed by a leading MLM software development company COMPANY NAME. More over these we are keen to construct MLM software as per the business plan suggested by the clients.This MLM software is featured of with integrated with SMS, E-Wallet,Replicating Website,E-Pin,E-Commerce, Shopping Cart,Web Design and more."
+        },
+        "paymentGateways": [
+            {
+                "id": 1,
+                "code": "E-pin",
+                "title": "e-pin",
+                "logo": "",
+                "icon": "fa-solid fa-bolt"
+            },
+            {
+                "id": 2,
+                "code": "E-wallet",
+                "title": "e-wallet",
+                "logo": "",
+                "icon": "fa-solid fa-wallet"
+            },
+            {
+                "id": 3,
+                "code": "Free Joining",
+                "title": "free-joining",
+                "logo": "",
+                "icon": "fa-regular fa-id-card"
+            },
+            {
+                "id": 4,
+                "code": "Bank Transfer",
+                "title": "bank-transfer",
+                "logo": "",
+                "icon": "fa-solid fa-paper-plane"
+            },
+            {
+                "id": 5,
+                "code": "Stripe",
+                "title": "stripe",
+                "logo": "stripe-logo.png",
+                "icon": "fa-brands fa-cc-stripe"
+            },
+            {
+                "id": 6,
+                "code": "Paypal",
+                "title": "paypal",
+                "logo": "paypal.png",
+                "icon": "fa-brands fa-paypal"
+            }
+        ],
+        "regData": null
+    }
+}

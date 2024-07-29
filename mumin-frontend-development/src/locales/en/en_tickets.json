@@ -1,0 +1,21 @@
+{
+    "ticket_id": "Ticket Id",
+    "priority": "Priority",
+    "subject": "Subject",
+    "assignee": "Assignee",
+    "created_on": "Created On",
+    "last_updated": "Last Updated",
+    "timeline": "Timeline",
+    "search": "Search",
+    "reset": "Reset",
+    "create_ticket": "Create Ticket",
+    "my_ticket": "My Ticket",
+    "message_to_admin": "Message To Admin",
+    "attachment": "Attachment",
+    "ticket_status":"Ticket Status",
+    "ticket_details":"Ticket Details",
+    "support": "Support",
+    "ticket":"Ticket",
+    "ticket_created_successfully":"Ticket Created Successfully",
+    "ticket_attachments":"Ticket Attachments"
+}

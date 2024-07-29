@@ -1,0 +1,11 @@
+{
+    "downlineMembers" : "Untergebene Mitglieder",
+    "genealogyTree"  : "Genealogiebaum",
+    "sponsorTree" : "Sponsorenbaum",
+    "treeView" : "Baumansicht",
+    "referralMembers" : "Empfehlungsmitglieder",
+    "totalReferralMembers" : "Gesamtzahl Empfehlungsmitglieder",
+    "totalLevels" : "Gesamtzahl Stufen",
+    "totalDownlineMembers" : "Gesamtzahl untergeordneter Mitglieder",
+    "count" : "Anzahl"
+}

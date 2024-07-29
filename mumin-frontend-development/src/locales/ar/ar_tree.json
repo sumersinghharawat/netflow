@@ -1,0 +1,11 @@
+{
+    "downlineMembers" : "أعضاء التنظيم السفلي",
+    "genealogyTree"  : "شجرة النسب",
+    "sponsorTree" : "شجرة الراعي",
+    "treeView" : "عرض الشجرة",
+    "referralMembers" : "أعضاء الإحالة",
+    "totalReferralMembers" : "إجمالي أعضاء الإحالة",
+    "totalLevels" : "إجمالي المستويات",
+    "totalDownlineMembers" : "إجمالي أعضاء التنظيم السفلي",
+    "count" : "العدد"
+}

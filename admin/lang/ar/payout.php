@@ -1,0 +1,40 @@
+<?php
+
+return [
+    'payout' => "سيصرف",
+    'pending' => "قيد الانتظار",
+    'approved' => "موافقة",
+    'paid' => "مدفوع",
+    'rejected' => "مرفوض",
+    'payout_summary' => "ملخص الدفع",
+    'payout_release' => "إصدار الدفع",
+    'process_payment' => "دفع عملية",
+    'invoice_number' => "رقم الفاتورة",
+    'payout_method' => "طريقة الدفع",
+    'paid_date' => "تاريخ المدفوعة",
+    'rejected_date' => "تاريخ مرفوض",
+    'user_request' => "طلب المستخدم",
+    'manual' => "يدوي",
+    'kyc_verified' => "تم التحقق من Kyc",
+    'kyc_unverified' => "لم يتم التحقق من KYC",
+    'payout_amount' => "مبلغ الدفع",
+    'payout_method' => "طريقة الدفع",
+    'payout_type' => "نوع الدفع",
+    'kyc_not_upload' => "لم يتم تحميل Kyc لـ",
+    'low_balance' => "رصيد منخفض. فشل إصدار الدفع.",
+    'cant_release_amount' => "لا يمكنك الإفراج عن هذا المبلغ ل",
+    'releaese_success' => "تم إصدار الدفعة بنجاح",
+    'requestDeleteSuccess' => "تم حذف طلب الدفع بنجاح",
+    'mark_as_paid' => "تم وضع علامة على الدفع على أنه مدفوع",
+    'approved_date' => "تاريخ الموافقة",
+    'payout_released' => "تم إصدار الدفعة",
+    'kyc_configuration' => "تكوين KYC",
+    'paypal_email_not_provided' => "البريد الإلكتروني للدفع: لم يتم توفير اسم المستخدم",
+    'not_enough_payapal_balance' => "لا يكفي رصيد باي بال !!",
+    'stripe_account_not_provided' => "لم يتم توفير حساب شريطي لـ:اسم المستخدم",
+    'not_enough_stripe_balance' => "لا يكفي شريط التوازن !!",
+    'incomplete_stripe_account_details_for' => "تفاصيل حساب Stripe غير مكتملة لـ:username",
+
+
+
+];

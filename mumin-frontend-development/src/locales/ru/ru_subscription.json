@@ -1,0 +1,13 @@
+{
+    "totalAmount": "Общая сумма",
+    "Package upgraded successfully": "Пакет успешно обновлен",
+    "oldPlan": "Старый план",
+    "Upgrade_Pending": "Обновление в ожидании",
+    "upgradeValidity": "Срок действия обновления (месяцы)",
+    "currentPlan": "Текущий план",
+    "payNow": "Оплатить сейчас",
+    "addonComingSoon": "Дополнение скоро будет доступно",
+    "complete": "Завершено",
+    "auto_renewal": "Автоматическое обновление",
+    "Admin_Approval_Pending": "Ожидание одобрения администратора"
+}

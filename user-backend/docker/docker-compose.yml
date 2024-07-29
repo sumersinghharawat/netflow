@@ -1,0 +1,13 @@
+version: '3.8'
+services:
+  app:
+    image: node:2
+    volumes:
+      - ../:/app/src
+      - ../.env:/app/.env:rw
+      - ../uploads:/app/uploads:rw
+      - ../package.json:/app/package.json:rw
+    ports:
+      - 5000:5000
+    command:
+      npm run start-pm2

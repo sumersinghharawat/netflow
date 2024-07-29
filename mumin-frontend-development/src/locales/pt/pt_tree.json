@@ -1,0 +1,11 @@
+{
+    "downlineMembers" : "Membros da Linha Descendente",
+    "genealogyTree"  : "Árvore Genealógica",
+    "sponsorTree" : "Árvore de Patrocinadores",
+    "treeView" : "Visualização de Árvore",
+    "referralMembers" : "Membros de Indicação",
+    "totalReferralMembers" : "Total de Membros de Indicação",
+    "totalLevels" : "Total de Níveis",
+    "totalDownlineMembers" : "Total de Membros da Linha Descendente",
+    "count" : "Contagem"
+}

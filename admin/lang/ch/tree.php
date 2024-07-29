@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => '加盟日期',
+    'left' => '剩下',
+    'right' => '正确的',
+    'left_carry' => '左进位',
+    'right_carry' => '右进位',
+    'personal_pv' => '个人光伏',
+    'group_pv' => '集团光伏',
+    'geanolgy_tree' => '家谱树',
+    'downline_members' => '下线成员',
+    'change_placement' => '更改位置',
+    'sponsor_tree' => '赞助树',
+    'referral_members' => '推荐会员',
+    'select_username' => '选择用户名',
+    'select_new_placement' => '选择新展示位置',
+    'select_new_position' => '选择新职位',
+    'change' => '改变',
+    'cant_change_admin_placement' => '无法更改管理员位置',
+    'choose_another_placement' => '选择其他展示位置',
+    'cant_select_downline_as_placement' => '无法选择下线作为展示位置',
+    'select_new_sponsor' => '选择新的赞助商',
+    'change_sponsor' => '变更发起人',
+    'tree_view' => '树视图',
+    'total_downline_members' => '下线成员总数',
+    'total_levels' => '总水平',
+    'joining_date' => '加盟日期',
+    'total_referral_downline' => '总推荐下线',
+
+];

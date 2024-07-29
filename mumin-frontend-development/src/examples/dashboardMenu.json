@@ -1,0 +1,117 @@
+[
+    {
+        "id": 11,
+        "title": "Dashboard",
+        "slug": "dashboard",
+        "userIcon": "dashboard_ico.svg",
+        "is_child": 0,
+        "MenuPermission": {
+            "userPermission": 1
+        },
+        "subMenu": [],
+        "ecomLink": false,
+        "isMain": true
+    },
+    {
+        "id": 15,
+        "title": "Networks",
+        "slug": "networks",
+        "userIcon": "network_ico.svg",
+        "is_child": 0,
+        "MenuPermission": {
+            "userPermission": 1
+        },
+        "subMenu": [
+            {
+                "id": 45,
+                "title": "Tree View",
+                "slug": "tree-view",
+                "parentId": 15,
+                "userIcon": null,
+                "MenuPermission": {
+                    "userPermission": 1
+                }
+            },
+            {
+                "id": 46,
+                "title": "Genealogy Tree",
+                "slug": "genealogy-tree",
+                "parentId": 15,
+                "userIcon": null,
+                "MenuPermission": {
+                    "userPermission": 1
+                }
+            },
+            {
+                "id": 47,
+                "title": "Sponsor Tree",
+                "slug": "sponsor-tree",
+                "parentId": 15,
+                "userIcon": null,
+                "MenuPermission": {
+                    "userPermission": 1
+                }
+            },
+            {
+                "id": 48,
+                "title": "Downline Members",
+                "slug": "downline-members",
+                "parentId": 15,
+                "userIcon": null,
+                "MenuPermission": {
+                    "userPermission": 1
+                }
+            },
+            {
+                "id": 49,
+                "title": "Referral Members",
+                "slug": "referral-members",
+                "parentId": 15,
+                "userIcon": null,
+                "MenuPermission": {
+                    "userPermission": 1
+                }
+            }
+        ],
+        "ecomLink": false,
+        "isMain": true
+    },
+    {
+        "id": 29,
+        "title": "Register",
+        "slug": "register",
+        "userIcon": "user_ico.svg",
+        "is_child": 0,
+        "MenuPermission": {
+            "userPermission": 1
+        },
+        "subMenu": [],
+        "ecomLink": false,
+        "isMain": true
+    },
+    {
+        "id": 19,
+        "title": "E Wallet",
+        "slug": "e-wallet",
+        "userIcon": "wallet_ico.svg",
+        "is_child": 0,
+        "MenuPermission": {
+            "userPermission": 1
+        },
+        "subMenu": [],
+        "ecomLink": false,
+        "isMain": true
+    },
+    {
+        "id": 20,
+        "title": "Payout",
+        "slug": "payout",
+        "userIcon": "payout_ico.svg",
+        "is_child": 0,
+        "MenuPermission": {
+            "userPermission": 1
+        },
+        "subMenu": [],
+        "ecomLink": false,
+        "isMain": true
+    }]

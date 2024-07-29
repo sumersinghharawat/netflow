@@ -1,0 +1,21 @@
+{
+    "ticket_id": "Bilet Kimliği",
+    "priority": "Öncelik",
+    "subject": "Konu",
+    "assignee": "Sorumlu Kişi",
+    "created_on": "Oluşturulma Tarihi",
+    "last_updated": "Son Güncelleme",
+    "timeline": "Zaman Çizelgesi",
+    "search": "Ara",
+    "reset": "Sıfırla",
+    "create_ticket": "Bilet Oluştur",
+    "my_ticket": "Benim Biletlerim",
+    "message_to_admin": "Yöneticiye Mesaj",
+    "attachment": "Ek",
+    "ticket_status": "Bilet Durumu",
+    "ticket_details": "Bilet Detayları",
+    "support": "Destek",
+    "ticket": "Bilet",
+    "ticket_created_successfully": "Bilet Başarıyla Oluşturuldu",
+    "ticket_attachments": "Bilet Ekleri"
+}

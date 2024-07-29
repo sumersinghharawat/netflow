@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => 'Katılma Tarihi',
+    'left' => 'Ayrıldı',
+    'right' => 'Doğru',
+    'left_carry' => 'Sol Taşıma',
+    'right_carry' => 'Sağ Taşıma',
+    'personal_pv' => 'Kişisel PV',
+    'group_pv' => 'Grup PV',
+    'geanolgy_tree' => 'soy ağacı',
+    'downline_members' => 'Alt Sıradaki Üyeler',
+    'change_placement' => 'Yerleşimi Değiştir',
+    'sponsor_tree' => 'Sponsor Ağacı',
+    'referral_members' => 'Tavsiye Üyeleri',
+    'select_username' => 'Kullanıcı adı seç',
+    'select_new_placement' => 'Yeni Yerleşim Seç',
+    'select_new_position' => 'Yeni Konum Seç',
+    'change' => 'Değiştirmek',
+    'cant_change_admin_placement' => 'Yönetici Yerleşimini Değiştiremiyorum',
+    'choose_another_placement' => 'Başka bir Yerleşim Seçin',
+    'cant_select_downline_as_placement' => 'Yerleşim Olarak Alt Sıra Seçilemiyor',
+    'select_new_sponsor' => 'Yeni Sponsor Seçin',
+    'change_sponsor' => 'Sponsoru Değiştir',
+    'tree_view' => 'Ağaç görünümü',
+    'total_downline_members' => 'Toplam Alt Sıra Üyeleri',
+    'total_levels' => 'Toplam Seviyeler',
+    'joining_date' => 'Katılma Tarihi',
+    'total_referral_downline' => 'Toplam Yönlendirme Alt Sıraları',
+
+];

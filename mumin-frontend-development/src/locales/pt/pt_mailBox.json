@@ -1,0 +1,12 @@
+{
+    "mailBox": "Caixa de Correio",
+    "compose": "Compor",
+    "inbox": "Caixa de Entrada",
+    "send": "Enviar",
+    "reply": "Responder",
+    "replyAll": "Responder a Todos",
+    "forward": "Encaminhar",
+    "delete": "Excluir",
+    "admin_inbox": "Caixa de Entrada do Administrador",
+    "replica_inbox": "Caixa de Entrada da Réplica"
+}

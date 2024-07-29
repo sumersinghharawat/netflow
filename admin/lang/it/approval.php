@@ -1,0 +1,25 @@
+<?php
+
+return [
+    'reject_failure' => "Azione di rifiuto non riuscita",
+    'reject_success' => "Registrazione rifiutata con successo",
+    'user_information' => "informazioni utente",
+    'sponsor_and_package_information' => "Informazioni sullo sponsor e sul pacchetto",
+    'contact_information' => "Informazioni sui contatti",
+    'registration_approval_on_processing' => "Approvazione della registrazione sul trattamento",
+    'registration_approval' => "Registrazione approvata con successo",
+    'receipt' => "Ricevuta",
+    'cash_on_delivery' => "Pagamento alla consegna",
+    'bank_transfer' => "Trasferimento bancario",
+    'e-pin' => "E-Pin",
+    'epin' => "E-Pin",
+    'e_pin' => "E-Pin",
+    'stripe' => "Banda",
+    'paypal' => "PayPal",
+    'e-wallet' => "Portafoglio elettronico",
+    'ewallet' => "Portafoglio elettronico",
+    'e_wallet' => "Portafoglio elettronico",
+    'Bank Transfer' => "Trasferimento bancario",
+    'cash-on-delivery' => "Pagamento alla consegna",
+    'bank-transfer' => "Trasferimento bancario",
+];

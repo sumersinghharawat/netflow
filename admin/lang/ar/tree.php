@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => 'تاريخ الانضمام',
+    'left' => 'اليسار',
+    'right' => 'الصحيح',
+    'left_carry' => 'اليسار كاري',
+    'right_carry' => 'الحق في حمل',
+    'personal_pv' => 'PV الشخصية',
+    'group_pv' => 'المجموعة PV',
+    'geanolgy_tree' => 'شجرة الأنساب',
+    'downline_members' => 'أعضاء دوونلاين',
+    'change_placement' => 'تغيير الموضع',
+    'sponsor_tree' => 'شجرة الراعي',
+    'referral_members' => 'أعضاء الإحالة',
+    'select_username' => 'حدد اسم المستخدم',
+    'select_new_placement' => 'حدد موضع جديد',
+    'select_new_position' => 'حدد الوظيفة الجديدة',
+    'change' => 'يتغيرون',
+    'cant_change_admin_placement' => 'لا يمكن تغيير موضع المسؤول',
+    'choose_another_placement' => 'اختر موضعًا آخر',
+    'cant_select_downline_as_placement' => 'لا يمكن تحديد السطر كموضع',
+    'select_new_sponsor' => 'حدد راعي جديد',
+    'change_sponsor' => 'تغيير الراعي',
+    'tree_view' => 'عرض الشجرة',
+    'total_downline_members' => 'مجموع أعضاء داونلاين',
+    'total_levels' => 'المستويات الإجمالية',
+    'joining_date' => 'تاريخ الانضمام',
+    'total_referral_downline' => 'مجموع دوون الإحالة',
+
+];

@@ -1,0 +1,9 @@
+{
+    "apps" : [{
+      "name"        : "IMS",
+      "script"      : "./src/bin/www.js",
+      "watch"       : true,
+      "exec_mode"   : "fork",
+      "ignore_watch" : ["\\.git", "*.log", "/app/src/logs/*","uploads","src/uploads"]
+    }]
+  }

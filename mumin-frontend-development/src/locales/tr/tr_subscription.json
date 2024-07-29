@@ -1,0 +1,13 @@
+{
+    "totalAmount": "Toplam Tutar",
+    "Package upgraded successfully": "Paket başarıyla yükseltildi",
+    "oldPlan": "Eski Plan",
+    "Upgrade_Pending": "Yükseltme Beklemede",
+    "upgradeValidity": "Geçerlilik süresi (aylar)",
+    "currentPlan": "Mevcut Plan",
+    "payNow": "Şimdi Öde",
+    "addonComingSoon": "Yakında Ek Paket",
+    "complete": "Tamamla",
+    "auto_renewal": "Otomatik Yenileme",
+    "Admin_Approval_Pending": "Admin Onayı Bekliyor"
+}

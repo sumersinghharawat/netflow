@@ -1,0 +1,21 @@
+{
+  "ticket_id": "ID do Ticket",
+  "priority": "Prioridade",
+  "subject": "Assunto",
+  "assignee": "Atribuído a",
+  "created_on": "Criado em",
+  "last_updated": "Última Atualização",
+  "timeline": "Linha do Tempo",
+  "search": "Pesquisar",
+  "reset": "Redefinir",
+  "create_ticket": "Criar Ticket",
+  "my_ticket": "Meus Tickets",
+  "message_to_admin": "Mensagem para o Administrador",
+  "attachment": "Anexo",
+  "ticket_status": "Estado do Ticket",
+  "ticket_details": "Detalhes do Ticket",
+  "support": "Suporte",
+  "ticket": "Ticket",
+  "ticket_created_successfully": "Ticket Criado com Sucesso",
+  "ticket_attachments": "Anexos do Ticket"
+}

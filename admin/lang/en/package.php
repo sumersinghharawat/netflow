@@ -1,0 +1,53 @@
+<?php
+
+return [
+    'membership' => 'Membership',
+    'add_package' => 'Add Package',
+    'name' => 'Package Name',
+    'pv' => 'PV',
+    'bv_value' => 'BV Value',
+    'validity' => 'Validity (in months)',
+    'id' => 'Package ID',
+    'amount' => 'Package Amount',
+    'pv_value' => 'PV Value',
+    'product_pv' => 'Product PV',
+    'advanced_config_binary' => 'Advanced Configuration : Binary Commission',
+    'pair_price' => 'Pair Price',
+    'advanced_config_referral' => 'Advanced Configuration : referral Commission',
+    'referral_commission' => 'Referral Commission',
+    'advanced_config_roi' => 'Advanced Configuration : Roi Commission',
+    'hyip' => 'Hyip',
+    'repurchase_cart' => 'Repurchase Cart',
+    'manage_package' => 'Manage Package',
+    'manage_category' => 'Manage Category',
+    'new_package' => 'New Package',
+    'image' => 'Product Image',
+    'category' => 'Category',
+    'add_repurchase_category' => 'Add Repurchase Category',
+    'category_name' => 'Category Name',
+    'select_category' => 'Select Category',
+    'select_product_image' => 'Select Product Image',
+    'order_date' => 'Order Date',
+    'reciept' => 'Reciept',
+    'order_approval' => 'Order Approval',
+    'select_order_type' => 'Select Order Type',
+    'register' => 'Register',
+    'checkout' => 'Checkout',
+    'upgrade' => 'Upgrade',
+    'renewal' => 'Renewal',
+    'order_history' => 'Order History',
+    'order_id' => 'Order Id',
+    'add_membership_package' => 'Add Membership Package',
+    'add_purchase_package' => 'Add Re-Purchase Package',
+
+    // subscription
+    'stripeId' => 'Stripe ID',
+    'paypalId' => 'Paypal ID',
+    'createStripeId' => 'Create Stripe Id',
+    'createPaypalId' => 'Create Paypal Id',
+    'productId_create_success' => 'Product ID created successfully',
+
+    // monoline
+    'reentry_limit'     => 'Reentry Limit',
+    'rentry_limit'      => 'Reentry Limit'
+];

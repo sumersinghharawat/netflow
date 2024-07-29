@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => 'Beitrittsdatum',
+    'left' => 'Links',
+    'right' => 'Recht',
+    'left_carry' => 'Links tragen',
+    'right_carry' => 'Rechts tragen',
+    'personal_pv' => 'Persönliches PV',
+    'group_pv' => 'Gruppen-PV',
+    'geanolgy_tree' => 'Stammbaum',
+    'downline_members' => 'Downline-Mitglieder',
+    'change_placement' => 'Platzierung ändern',
+    'sponsor_tree' => 'Sponsorenbaum',
+    'referral_members' => 'Empfehlungsmitglieder',
+    'select_username' => 'Benutzernamen auswählen',
+    'select_new_placement' => 'Wählen Sie Neue Platzierung aus',
+    'select_new_position' => 'Wählen Sie Neue Position',
+    'change' => 'Veränderung',
+    'cant_change_admin_placement' => 'Die Admin-Platzierung kann nicht geändert werden',
+    'choose_another_placement' => 'Wählen Sie eine andere Platzierung',
+    'cant_select_downline_as_placement' => 'Downline kann nicht als Platzierung ausgewählt werden',
+    'select_new_sponsor' => 'Wählen Sie Neuer Sponsor',
+    'change_sponsor' => 'Sponsor wechseln',
+    'tree_view' => 'Baumsicht',
+    'total_downline_members' => 'Gesamtzahl der Downline-Mitglieder',
+    'total_levels' => 'Gesamtlevel',
+    'joining_date' => 'Beitrittsdatum',
+    'total_referral_downline' => 'Gesamte Empfehlungs-Downlines',
+
+];

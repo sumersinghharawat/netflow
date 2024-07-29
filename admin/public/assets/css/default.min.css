@@ -1,0 +1,82 @@
+text-justify {
+    text-align: justify !important;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.profile-card {
+    min-height: 462px !important;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 2px #888;
+}
+
+.profile-card-2 {
+    min-height: 619px !important;
+    border-radius: 25px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 2px #888;
+}
+
+.form-group {
+    margin-bottom: 1rem !important;
+}
+.text-justofy {
+    text-align: justify !important;
+}
+/*********bootstrap tabs*************/
+#exTab1 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+
+  #exTab2 h3 {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+
+  /* remove border radius for the tab */
+
+  #exTab1 .nav-pills > li > a {
+    border-radius: 0;
+  }
+
+  /* change border radius for the tab , apply corners on top*/
+
+  #exTab3 .nav-pills > li > a {
+    border-radius: 4px 4px 0 0 ;
+  }
+
+  #exTab3 .tab-content {
+    color : white;
+    background-color: #428bca;
+    padding : 5px 15px;
+  }
+  @media print {
+    #excel {
+      display: none;
+    }
+    #csv {
+        display: none;
+      }
+      #printButton {
+        display: none;
+      }
+  }
+
+
+
+
+

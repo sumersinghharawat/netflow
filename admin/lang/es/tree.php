@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'join_date' => 'Dia de ingreso',
+    'left' => 'Izquierda',
+    'right' => 'Derecha',
+    'left_carry' => 'Llevar a la izquierda',
+    'right_carry' => 'Llevar a la derecha',
+    'personal_pv' => 'PV personales',
+    'group_pv' => 'PV de grupo',
+    'geanolgy_tree' => 'Árbol genealógico',
+    'downline_members' => 'Miembros de línea descendente',
+    'change_placement' => 'Cambiar ubicación',
+    'sponsor_tree' => 'Árbol de patrocinadores',
+    'referral_members' => 'Miembros de referencia',
+    'select_username' => 'Elija un nombre de usuario',
+    'select_new_placement' => 'Seleccionar nueva ubicación',
+    'select_new_position' => 'Seleccionar nueva posición',
+    'change' => 'Cambio',
+    'cant_change_admin_placement' => 'No se puede cambiar la ubicación del administrador',
+    'choose_another_placement' => 'Elija otra ubicación',
+    'cant_select_downline_as_placement' => 'No se puede seleccionar la línea descendente como ubicación',
+    'select_new_sponsor' => 'Seleccionar nuevo patrocinador',
+    'change_sponsor' => 'Cambiar Patrocinador',
+    'tree_view' => 'Vista de árbol',
+    'total_downline_members' => 'Total de miembros de línea descendente',
+    'total_levels' => 'Niveles totales',
+    'joining_date' => 'Dia de ingreso',
+    'total_referral_downline' => 'Total de líneas descendentes de referencia',
+
+];

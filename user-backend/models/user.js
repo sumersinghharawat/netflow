@@ -1,0 +1,50 @@
+import { Model, DataTypes } from 'sequelize';
+import { sequelize } from '../config/db.js';
+
+const User = sequelize.define( 'User',
+    {
+        ecomCustomerRefId: DataTypes.BIGINT,
+        username: DataTypes.STRING,
+        userType: DataTypes.STRING(20),
+        password: DataTypes.STRING(300),
+        email: DataTypes.STRING(255),
+        userRankId: DataTypes.INTEGER,
+        active: DataTypes.TINYINT,
+        position: DataTypes.BIGINT,
+        legPosition: DataTypes.INTEGER,
+        sponsorIndex: DataTypes.INTEGER,
+        regFrom: DataTypes.TINYINT,
+        approvedBy: DataTypes.TINYINT,
+        autoRenewalStatus: DataTypes.TINYINT,
+        fatherId: DataTypes.INTEGER.UNSIGNED,
+        sponsorId: DataTypes.INTEGER.UNSIGNED,
+        firstPair: DataTypes.STRING(50),
+        totalLeg: DataTypes.DOUBLE,
+        totalLeftCarry: DataTypes.DOUBLE,
+        totalRightCarry: DataTypes.DOUBLE,
+        productId: DataTypes.BIGINT,
+        productValidity: DataTypes.DATE,
+        dateOfJoining: DataTypes.DATE,
+        userLevel: DataTypes.INTEGER,
+        sponsorLevel: DataTypes.INTEGER,
+        registerByUsing: DataTypes.STRING(100),
+        apiKey: DataTypes.STRING(100),
+        autoRenewalStatus: DataTypes.TINYINT,
+        defaultLang: DataTypes.INTEGER,
+        defaultCurrency: DataTypes.INTEGER,
+        personalPv: DataTypes.STRING(50),
+        groupPv: DataTypes.STRING(50),
+        binaryLeg: DataTypes.STRING(50),
+        gocKey: DataTypes.STRING(50),
+        infToken: DataTypes.STRING(15),
+        forceLogout: DataTypes.INTEGER,
+        googleAuthStatus: DataTypes.STRING(10),
+        deleteStatus: DataTypes.STRING(10),
+        emailVerified: DataTypes.TINYINT,
+        rememberToken: DataTypes.STRING(100),
+        year: DataTypes.STRING(100),
+        yearMonth: DataTypes.STRING(100)
+    }, { sequelize }
+);
+
+export default User;

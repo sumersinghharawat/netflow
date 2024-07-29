@@ -1,0 +1,12 @@
+{
+    "mailBox": "Buzón de Correo",
+    "compose": "Redactar",
+    "inbox": "Bandeja de Entrada",
+    "send": "Enviar",
+    "reply": "Responder",
+    "replyAll": "Responder a Todos",
+    "forward": "Reenviar",
+    "delete": "Eliminar",
+    "admin_inbox": "Bandeja de Entrada del Administrador",
+    "replica_inbox": "Bandeja de Entrada de la Réplica"
+}

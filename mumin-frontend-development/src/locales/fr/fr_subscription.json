@@ -1,0 +1,13 @@
+{
+    "totalAmount": "Montant total",
+    "Package upgraded successfully": "Forfait mis à niveau avec succès",
+    "oldPlan": "Ancien plan",
+    "Upgrade_Pending": "Mise à niveau en attente",
+    "upgradeValidity": "Validité (mois)",
+    "currentPlan": "Plan actuel",
+    "payNow": "Payer maintenant",
+    "addonComingSoon": "Extension prochainement disponible",
+    "complete": "Terminé",
+    "auto_renewal": "Renouvellement automatique",
+    "Admin_Approval_Pending": "Approbation de l'administrateur en attente"
+}

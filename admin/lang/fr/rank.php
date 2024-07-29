@@ -1,0 +1,33 @@
+<?php
+
+return [
+    'rank_settings' => 'Paramètres de classement',
+    'rank_calculation_period' => 'Période de calcul du classement',
+    'rank_criteria' => 'Critères de classement',
+    'referral-count' => 'Nombre de références',
+    'personal-pv' => 'PV personnel',
+    'group-pv' => 'PV de groupe',
+    'joiner-package' => 'Forfait menuisier',
+    'downline-member-count' => 'Nombre de membres en aval',
+    'downline-package-count' => 'Nombre de packages en aval',
+    'downline-rank-count' => 'Nombre de rangs en aval',
+    'rank_details' => 'Détails du classement',
+    'add_rank' => 'Ajouter un rang',
+    'name' => 'Nom du rang',
+    'package_name' => 'Nom du paquet',
+    'commission' => 'Commission de classement',
+    'color' => 'Couleur de classement',
+    'badge' => 'Badge',
+    'rank_config_update' => 'Configuration de classement mise à jour',
+    'image_upload_failed' => "Échec du téléchargement de l'image de classement.",
+    'creation_success' => 'Classement créé avec succès',
+    'upload_failed' => "Échec du téléchargement de l'image de classement.",
+    'update_success' => 'Classement mis à jour avec succès',
+    'status_change' => 'Le statut de classement a été modifié avec succès.',
+    'minimum_count_of_downline_members_with_package' => 'Nombre minimum de membres downline avec forfait -',
+    'minimum_count_of_downline_members_with_rank' => 'Nombre minimum de membres en aval avec rang -',
+    'rank_achieve_bonus' => 'Bonus de classement',
+    'edit' => 'Modifier le classement',
+    'add' => 'Ajouter un nouveau rang',
+
+];

@@ -1,0 +1,12 @@
+{
+    "mailBox": "Casella di Posta",
+    "compose": "Componi",
+    "inbox": "Posta in Arrivo",
+    "send": "Invia",
+    "reply": "Rispondi",
+    "replyAll": "Rispondi a Tutti",
+    "forward": "Inoltra",
+    "delete": "Elimina",
+    "admin_inbox": "Casella di Posta dell'Amministratore",
+    "replica_inbox": "Casella di Posta Replica"
+}

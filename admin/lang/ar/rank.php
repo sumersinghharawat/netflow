@@ -1,0 +1,36 @@
+<?php
+
+return [
+    'rank_settings' => "إعدادات الرتبة",
+    'rank_description' => 'هنا يمكنك تكوين الرتب النظامية ومعاييرها. فترة حساب الرتبة: يمكنك تعيين حساب الرتبة على الفور أو يوميًا أو أسبوعيًا أو شهريًا أو سنويًا. يمكنك تمكين أو تعطيل معايير مختلفة مثل عدد الإحالات والنقاط الشخصية ونقاط المجموعة، إلخ... يمكنك أيضًا إضافة رتب، تحريرها، وإزالتها كما تشاء.',
+    'rank_calculation_period' => "فترة حساب الرتبة",
+    'rank_criteria' => "معايير الرتبة",
+    'referral-count' => "عدد الإحالة",
+    'personal-pv' => "الكهروضوئية الشخصية",
+    'group-pv' => "المجموعة الكهروضوئية",
+    'joiner-package' => "حزمة النجار",
+    'downline-member-count' => "عدد أعضاء دوونلين",
+    'downline-package-count' => "عدد حزم دوونلين",
+    'downline-rank-count' => "عدد رتبة دوونلين",
+    'rank_details' => "تفاصيل الرتبة",
+    'add_rank' => "أضف رتبة",
+    'name' => "اسم الرتبة",
+    'package_name' => "اسم الحزمة",
+    'commission' => "لجنة الرتبة",
+    'color' => "لون الرتبة",
+    'badge' => "شارة",
+    'rank_config_update' => "تم تحديث تكوين الرتبة",
+    'image_upload_failed' => "فشل تحميل صورة الترتيب.",
+    'creation_success' => "تم إنشاء الرتبة بنجاح",
+    'upload_failed' => "فشل تحميل صورة الترتيب.",
+    'update_success' => "تم تحديث الرتبة بنجاح",
+    'status_change' => "تم تغيير حالة التصنيف بنجاح.",
+    'minimum_count_of_downline_members_with_package' => "الحد الأدنى لعدد أعضاء downline مع الحزمة -",
+    'minimum_count_of_downline_members_with_rank' => "الحد الأدنى لعدد أعضاء downline مع رتبة -",
+    'rank_achieve_bonus' => "رتبة تحقيق المكافأة",
+    'edit' => "تحرير الرتبة",
+    'add' => "إضافة رتبة جديدة",
+    'creation_error' => 'Rank creation failed, please try again.',
+
+
+];

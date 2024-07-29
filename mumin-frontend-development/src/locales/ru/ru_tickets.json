@@ -1,0 +1,21 @@
+{
+    "ticket_id": "ID заявки",
+    "priority": "Приоритет",
+    "subject": "Тема",
+    "assignee": "Ответственный",
+    "created_on": "Создано",
+    "last_updated": "Последнее обновление",
+    "timeline": "Хронология",
+    "search": "Поиск",
+    "reset": "Сбросить",
+    "create_ticket": "Создать заявку",
+    "my_ticket": "Мои заявки",
+    "message_to_admin": "Сообщение администратору",
+    "attachment": "Вложение",
+    "ticket_status": "Статус заявки",
+    "ticket_details": "Детали заявки",
+    "support": "Поддержка",
+    "ticket": "Заявка",
+    "ticket_created_successfully": "Заявка успешно создана",
+    "ticket_attachments": "Вложения заявки"
+}

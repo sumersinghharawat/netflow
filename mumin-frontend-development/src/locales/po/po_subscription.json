@@ -1,0 +1,13 @@
+{
+    "totalAmount": "Całkowita kwota",
+    "Package upgraded successfully": "Pakiet pomyślnie zaktualizowany",
+    "oldPlan": "Stary plan",
+    "Upgrade_Pending": "Aktualizacja oczekująca",
+    "upgradeValidity": "Okres ważności (miesiące)",
+    "currentPlan": "Aktualny plan",
+    "payNow": "Zapłać teraz",
+    "addonComingSoon": "Dodatkowa usługa wkrótce dostępna",
+    "complete": "Zakończono",
+    "auto_renewal": "Automatyczne odnowienie",
+    "Admin_Approval_Pending": "Oczekuje na zatwierdzenie administratora"
+}
