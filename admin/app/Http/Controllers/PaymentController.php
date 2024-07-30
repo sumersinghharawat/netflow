@@ -18,7 +18,7 @@ class PaymentController extends CoreInfController
         $moduleStatus = $this->moduleStatus();
         $data = [
             'moduleStatus' => $moduleStatus,
-            'paymentConfig' => PaymentGatewayConfig::SortAscOrder()->with('details')->whereNotIn('id',array(1,6,7))->get(),
+            'paymentConfig' => PaymentGatewayConfig::SortAscOrder()->with('details')->whereNotIn('id',array(1,6,7,9))->get(),
             // 'paymentConfig' => PaymentGatewayConfig::SortAscOrder()->with('details')->whereNotIn('id',array(1,6,7))->get(),
             'bankdetails' => BankTransferSettings::first(),
         ];

@@ -79,6 +79,10 @@ export const passwordRules = (item) => {
     if (item.mixedCase) {
         rules.push('capital');
     }
+    // if (item.match) {
+        rules.push('match');
+    // }
+
     return rules
 }
 

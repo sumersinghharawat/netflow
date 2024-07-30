@@ -184,10 +184,15 @@ export const removeBankReceipt = async (req,res,next) => {
 };
 
 export const getPaymentGatewayKey = async (req,res,next) => {
-    const paymentMethod = req.query.paymentMethod;
-    
-    const publicKey = await PaymentGatewayDetail.findOne({attributes:["publicKey"],where:{paymentGatewayId:paymentMethod},raw:true});
-    return res.status(200).json(publicKey);
+    try{
+        // console.log(req.query);
+        const paymentMethod = req.query.paymentMethod;
+        const response = await PaymentGatewayDetail.findOne({attributes:["publicKey"],where:{paymentGatewayId:paymentMethod},raw:true});
+        return res.status(200).json({data:response});
+    } catch (error) {
+        logger.error("ERROR FROM removeBankReceipt",error);
+        return next(error);
+    }
 };
 
 

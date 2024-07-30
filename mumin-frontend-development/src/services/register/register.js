@@ -99,4 +99,8 @@ export const RegisterService = {
     const response = await postApi(`create-payment-intent`, data);
     return response;
   },
+  getPaymentGatewayKey: async (paymentId) => {
+    const response = await callApi(`payment-gateway-key`+"?paymentMethod="+paymentId);
+    return response;
+  },
 };

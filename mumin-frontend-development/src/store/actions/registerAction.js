@@ -25,6 +25,14 @@ export const CreatePaymentIntent=async(data)=>{
       return error.response.data
   }
 }
+export const GetPaymentGatewayKey=async(paymentId)=>{
+  try {
+      const response = await RegisterService.getPaymentGatewayKey(paymentId)
+      return response
+  } catch (error) {
+      return error.response.data
+  }
+}
 export const TranssPassCheck = async (value, totalAmount) => {
   try {
     const body = {

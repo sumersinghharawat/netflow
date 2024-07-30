@@ -93,6 +93,13 @@
                    <textarea class="form-control h-100" name="public_key">{{ $data['paymentConfig']->where('slug', 'nowpayment')->first()->details ? $data['paymentConfig']->where('slug', 'nowpayment')->first()->details->public_key : '' }}</textarea>
                </div>
            </div>
+           <div class="p-3">
+               <div class="form-group">
+                   <label for="message-text" class="col-form-label">{{ __('settings.nowpayment_secret') }}<span
+                           class="text-danger">*</span></label>
+                   <textarea class="form-control h-100" name="secret_key">{{ $data['paymentConfig']->where('slug', 'nowpayment')->first()->details ? $data['paymentConfig']->where('slug', 'nowpayment')->first()->details->secret_key : '' }}</textarea>
+               </div>
+           </div>
            <div class="modal-footer">
                <button type="button" class="btn btn-secondary"
                    data-bs-dismiss="offcanvas">{{ __('common.close') }}</button>

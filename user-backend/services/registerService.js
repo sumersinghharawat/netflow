@@ -189,6 +189,9 @@ class RegisterService {
                 case "paypal":
                     paymentField[key].icon = "fa-brands fa-paypal";
                     break;
+                case "nowpayment":
+                    paymentField[key].icon = "fa-brands fa-bitcoin";
+                    break;
                 default:
                     break;
             }

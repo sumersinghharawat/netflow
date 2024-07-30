@@ -55,6 +55,7 @@ const RegisterForm = ({
   const [clientSecret, setClientSecret] = useState({ status: false, data: "" });
   const [stripeKey, setStripeKey] = useState("");
   const [nowpaymentKey, setNowpaymentKey] = useState("");
+	const [passwordAgain, setPasswordAgain] = useState("")
 
   const [transPassResposne, setTransPassResposne] = useState({
     success: null,
@@ -100,6 +101,7 @@ const RegisterForm = ({
   const userBalance = ApiHook.CallEwalletBalance(getEwallet, setGetEwallet);
   const registerMutation = ApiHook.CallRegisterUser();
   const createIntent = ApiHook.CallPaymentIntent();
+  const PaymentGatewayKey = ApiHook.CallNowPaymentIntent();
   const Upload = ApiHook.CallBankUpload(
     "register",
     formValues?.username,
@@ -128,6 +130,18 @@ const RegisterForm = ({
       setStripeKey(response.publicKey);
     });
   };
+
+
+  const createIntentDataNowpayment = async (paymentId) => {
+
+    await PaymentGatewayKey.mutateAsync(paymentId).then((response) => {
+      console.log("public-key",response);
+      setNowpaymentKey(response.publicKey);
+    });
+    
+    // paymentId
+  };
+
 
   //----------------------Api call for field value check-----------------------------------
   const checkUsernameField = ApiHook.CallRegisterFieldsCheck();
@@ -336,6 +350,8 @@ const RegisterForm = ({
       setValue("transactionPassword", transPass?.transPassword);
     } else if (tabId === 5) {
       createIntentData();
+    } else if (tabId === 8) {
+      createIntentDataNowpayment(tabId);
     } else {
       setSubmitButtonActive(true);
     }
@@ -1275,10 +1291,22 @@ const RegisterForm = ({
                             )}
                             onBlur={async () => await trigger(item.code)}
                           />
+                          <input
+                            id={item.code}
+                            name="passwordagain"
+                            type={item.type}
+                            style={{ marginBottom: "8px" }}
+                            className={`form-control ${
+                              errors[item.code] ? "error-field" : ""
+                            }`}
+                            placeholder={item.placeholder}
+                            onChange={e => setPasswordAgain(e.target.value)}
+                          />
                           <PasswordChecklist
                             rules={passwordRules(item.validation)}
                             minLength={item.validation.minLength}
                             value={watch("password", "")}
+                            valueAgain={passwordAgain}
                           />
                         </>
                       )}
@@ -1792,16 +1820,16 @@ const RegisterForm = ({
                             <div>
                               <p>
                                 <>
-                                  {clientSecret.status &&
-                                    clientSecret.data &&
-                                    nowpaymentKey && (
-                                      <NowPayment
-                                        clientSecret={clientSecret.data}
+                                    {nowpaymentKey && (
+                                      <><NowPayment
+                                        currency={currency?.code}
+                                        product={formValues?.product}
+                                        price={formValues.totalAmount}
                                         totalAmount={formValues.totalAmount}
                                         action={"register"}
-                                        handleSubmitFinish={handleSubmit}
-                                        publicKey={nowpaymentKey}
+                                        nowpaymentKey={nowpaymentKey}
                                       />
+                                      </>
                                     )}
                                 </>
                               </p>
@@ -1816,12 +1844,9 @@ const RegisterForm = ({
                             />
                           )}
                           {tab.title === "nowpayment" && (
-                            <MyPayPalOrderButton
-                              currency={currency?.code}
-                              price={formValues.totalAmount}
-                              handleSubmit={handleSubmit}
-                              paymentId={tab.id}
-                            />
+                            <><MyPayPalOrderButton
+                              
+                            /></>
                           )}
                         </div>
                       ))}

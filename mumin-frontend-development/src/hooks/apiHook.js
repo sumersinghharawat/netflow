@@ -95,7 +95,7 @@ import {
 } from "../store/actions/epinAction";
 import { callCheckIsPresent, callDemoVisitorData, callResendOtp, callVerifyOtp } from "../store/actions/demoVisitorAction"
 import { toast } from "react-toastify";
-import { RegisterFields, RegisterFieldCheck, TranssPassCheck, CreateRegisterLink, CreateStoreLink, RegisterUser, BankUpload, LetterPreview, deleteBankReceipt,CreatePaymentIntent } from "../store/actions/registerAction";
+import { RegisterFields, RegisterFieldCheck, TranssPassCheck, CreateRegisterLink, CreateStoreLink, RegisterUser, BankUpload, LetterPreview, deleteBankReceipt,CreatePaymentIntent, GetPaymentGatewayKey } from "../store/actions/registerAction";
 import { useTranslation } from "react-i18next";
 import { deleteReplicaBanner, getDownloadMaterials, getFaqs, getLeads, getNews, getNewsById, getReplicaBanner, searchLeads, updateLead, uploadReplicaBanner } from "../store/actions/toolsAction";
 import { DefaultAddressChange, PlaceRepurchaseOrder, ProductDetails, RepurchaseInvoice, RepurchaseReport, addAddress, addToCart, callPaymentMethods, decrementCartItem, getAddress, getCartItems, getRepurchaseItems, removeAddress, removeCartItem } from "../store/actions/shopping";
@@ -1665,6 +1665,11 @@ export const ApiHook = {
     //stripe 
     CallPaymentIntent: () => {
         const response = useMutation((data) => CreatePaymentIntent(data))
+        return response
+    },
+
+    CallNowPaymentIntent: () => {
+        const response = useMutation((paymentId) => GetPaymentGatewayKey(paymentId))
         return response
     },
 };

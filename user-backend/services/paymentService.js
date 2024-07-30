@@ -110,7 +110,7 @@ class PaymentService {
         {
           model: PaymentGatewayDetail,
           attributes: ["id"],
-          required: false,
+          required: true,
         },
       ],
     });
