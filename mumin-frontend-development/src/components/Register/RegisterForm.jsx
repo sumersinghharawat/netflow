@@ -55,7 +55,7 @@ const RegisterForm = ({
   const [clientSecret, setClientSecret] = useState({ status: false, data: "" });
   const [stripeKey, setStripeKey] = useState("");
   const [nowpaymentKey, setNowpaymentKey] = useState("");
-	const [passwordAgain, setPasswordAgain] = useState("")
+	const [passwordAgain, setPasswordAgain] = useState("");
 
   const [transPassResposne, setTransPassResposne] = useState({
     success: null,
@@ -131,12 +131,11 @@ const RegisterForm = ({
     });
   };
 
-
   const createIntentDataNowpayment = async (paymentId) => {
 
     await PaymentGatewayKey.mutateAsync(paymentId).then((response) => {
-      console.log("public-key",response);
-      setNowpaymentKey(response.publicKey);
+      // console.log("public-key",response.data.publicKey);
+      setNowpaymentKey(response.data.data.publicKey);
     });
     
     // paymentId
@@ -277,7 +276,7 @@ const RegisterForm = ({
   };
 
   const handleSubmit = async (paymentId = null) => {
-    if (paymentId === 6) {
+    if (paymentId === 6 || paymentId === 8) {
       setValue("paymentType", paymentId);
       formValues.paymentType = paymentId;
     }
@@ -1813,13 +1812,14 @@ const RegisterForm = ({
                               </p>
                             </div>
                           )}
-                          {tab.title === "nowpayment" && (
+                          {tab.title === "crypto" && (
+                            
                             // <p>
                             //   <strong>Addon Coming Soon</strong>
                             // </p>
                             <div>
                               <p>
-                                <>
+                                  <>
                                     {nowpaymentKey && (
                                       <><NowPayment
                                         currency={currency?.code}
@@ -1828,8 +1828,11 @@ const RegisterForm = ({
                                         totalAmount={formValues.totalAmount}
                                         action={"register"}
                                         nowpaymentKey={nowpaymentKey}
+                                        email={formValues.email}
+                                        paymentMethodId={tab.id}
+                                        handleSubmitFinish={handleSubmit}
                                       />
-                                      </>
+                                  </>
                                     )}
                                 </>
                               </p>
@@ -1842,11 +1845,6 @@ const RegisterForm = ({
                               handleSubmit={handleSubmit}
                               paymentId={tab.id}
                             />
-                          )}
-                          {tab.title === "nowpayment" && (
-                            <><MyPayPalOrderButton
-                              
-                            /></>
                           )}
                         </div>
                       ))}

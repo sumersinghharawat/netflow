@@ -89,12 +89,22 @@ class PaymentController extends CoreInfController
             ->with('error', $e->getMessage());
         }
     }
+
     public function getStripeKey()
     {
         $serviceClass = new StripeService;
         return response()->json([
             'status' => true,
             'data'  => $serviceClass->getStripeCredentials()
+        ]);
+    }
+
+    public function getPaymentGatewayKey($payment_id)
+    {
+        $serviceClass = new PaymentGatewayConfig();
+        return response()->json([
+            'status' => true,
+            'data'  => $serviceClass->where(['id'=>$payment_id])
         ]);
     }
 }

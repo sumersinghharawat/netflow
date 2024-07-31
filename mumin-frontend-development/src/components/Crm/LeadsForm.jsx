@@ -244,7 +244,7 @@ const LeadsForm = () => {
             </Form>
           </div>
         </div>
-        <p className="lcp_copyright">Copyright © 2023 Infinte MLM Software.</p>
+        <p className="lcp_copyright">Copyright © 2024.</p>
       </div>
     </section>
   );

@@ -19,12 +19,15 @@ import { useSelector } from "react-redux";
 import CurrencyConverter from "../../Currency/CurrencyConverter";
 import MyPayPalOrderButton from "../payment/PaypalOrderButton";
 import Stripe from "../../views/payments/Stripe";
+import NowPayment from "../payment/NowPayment";
+import { updateCurrency } from "../../store/actions/userAction";
 
 const ReplicaRegisterForm = ({
   activeStep,
   setActiveStep,
   handleToggleRegisterModal,
   animateStepTransition,
+  currency,
   data,
 }) => {
   const { t } = useTranslation();
@@ -40,6 +43,8 @@ const ReplicaRegisterForm = ({
   const [selectedState, setSelectedState] = useState("");
   const [clientSecret, setClientSecret] = useState({ status: false, data: "" });
   const [stripeKey, setStripeKey] = useState("");
+  const [nowpaymentKey, setNowpaymentKey] = useState("");
+  const [passwordAgain, setPasswordAgain] = useState("");
   const [isMinAge, setIsMinAge] = useState({
     status: false,
     ageLimit: data?.contactInformation?.contactField.find(
@@ -85,6 +90,7 @@ const ReplicaRegisterForm = ({
   const checkUsernameField = ApiHook.CallReplicaFieldCheck();
   const checkEmailField = ApiHook.CallReplicaFieldCheck();
   const createIntent = ApiHook.CallPaymentIntent();
+  const PaymentGatewayKey = ApiHook.CallNowPaymentIntent();
 
   const Upload = ApiHook.CallReplicaBankRecieptUpload(
     "register/replica",
@@ -173,6 +179,18 @@ const ReplicaRegisterForm = ({
       setStripeKey(response.publicKey);
     });
   };
+
+
+  const createIntentDataNowpayment = async (paymentId) => {
+
+    await PaymentGatewayKey.mutateAsync(paymentId).then((response) => {
+      console.log("public-key",response);
+      setNowpaymentKey(response.data.data.publicKey);
+    });
+    
+    // paymentId
+  };
+
   const openCalender = () => {
     setIsCalenderOpen(true);
   };
@@ -293,12 +311,15 @@ const ReplicaRegisterForm = ({
   };
 
   const handlePaymentTabClick = (tabId) => {
+    // console.log(tabId);
     setActiveTab(tabId);
     if (tabId === 3) {
       setSubmitButtonActive(false);
     } else if (tabId === 5) {
       createIntentData();
-    }else {
+    } else if (tabId === 8) {
+      createIntentDataNowpayment(tabId);
+    } else {
       setSubmitButtonActive(true);
     }
     setValue("paymentType", tabId, { shouldValidate: true }); // Set the selected payment
@@ -1078,10 +1099,22 @@ const ReplicaRegisterForm = ({
                             )}
                             onBlur={async () => await trigger(item.code)}
                           />
+                          <input
+                            id={item.code}
+                            name="passwordagain"
+                            type={item.type}
+                            style={{ marginBottom: "8px" }}
+                            className={`form-control ${
+                              errors[item.code] ? "error-field" : ""
+                            }`}
+                            placeholder={item.placeholder}
+                            onChange={e => setPasswordAgain(e.target.value)}
+                          />
                           <PasswordChecklist
                             rules={passwordRules(item.validation)}
                             minLength={item.validation.minLength}
                             value={watch("password", "")}
+                            valueAgain={passwordAgain}
                           />
                         </>
                       )}
@@ -1433,6 +1466,31 @@ const ReplicaRegisterForm = ({
                                         publicKey={stripeKey}
                                       />
                                     )}
+                                </>
+                              </p>
+                            </div>
+                          )}
+                          {tab.title === "crypto" && (
+                            
+                            // <p>
+                            //   <strong>Addon Coming Soon</strong>
+                            // </p>
+                            <div>
+                              <p>
+                                <>
+                                  {nowpaymentKey && (
+                                    <>{updateCurrency}<NowPayment
+                                      currency={currency?.code}
+                                      product={formValues?.product}
+                                      price={formValues.totalAmount}
+                                      totalAmount={formValues.totalAmount}
+                                      action={"register"}
+                                      nowpaymentKey={nowpaymentKey}
+                                      email={formValues.email}
+                                      paymentMethodId={tab.id}
+                                      handleSubmitFinish={handleSubmit}
+                                  />
+                                </>)}
                                 </>
                               </p>
                             </div>

@@ -73,31 +73,31 @@
    </div>
    <div class="offcanvas-body">
        <form method="post" onsubmit="storeNowpayment(this)"
-           action="{{ route('nowpaymentDetail.update', $data['paymentConfig']->where('slug', 'nowpayment')->first()->id) }}">
+           action="{{ route('nowpaymentDetail.update', $data['paymentConfig']->where('slug', 'crypto')->first()->id) }}">
            @csrf
            <div class="p-3">
                <div class="form-group">
                    <label for="message-text" class="col-form-label">{{ __('settings.mode') }} <span
                            class="text-danger">*</span></label>
                    <select name="mode" class="form-control">
-                       <option value='test' @if ($data['paymentConfig']->where('slug', 'nowpayment')->first()->mode=='test') selected="selected" @endif> Test</option>
-                       <option value='live' @if ($data['paymentConfig']->where('slug', 'nowpayment')->first()->mode=='live') selected="selected" @endif> Live</option>
+                       <option value='test' @if ($data['paymentConfig']->where('slug', 'crypto')->first()->mode=='test') selected="selected" @endif> Test</option>
+                       <option value='live' @if ($data['paymentConfig']->where('slug', 'crypto')->first()->mode=='live') selected="selected" @endif> Live</option>
                    </select>
                </div>
            </div>
            <div class="p-3">
                <div class="form-group"><input type="hidden" name="id"
-                       value="{{ $data['paymentConfig']->where('slug', 'nowpayment')->first()->id }}">
+                       value="{{ $data['paymentConfig']->where('slug', 'crypto')->first()->id }}">
                    <label for="message-text" class="col-form-label">{{ __('settings.nowpayment_public') }} <span
                            class="text-danger">*</span></label>
-                   <textarea class="form-control h-100" name="public_key">{{ $data['paymentConfig']->where('slug', 'nowpayment')->first()->details ? $data['paymentConfig']->where('slug', 'nowpayment')->first()->details->public_key : '' }}</textarea>
+                   <textarea class="form-control h-100" name="public_key">{{ $data['paymentConfig']->where('slug', 'crypto')->first()->details ? $data['paymentConfig']->where('slug', 'crypto')->first()->details->public_key : '' }}</textarea>
                </div>
            </div>
            <div class="p-3">
                <div class="form-group">
                    <label for="message-text" class="col-form-label">{{ __('settings.nowpayment_secret') }}<span
                            class="text-danger">*</span></label>
-                   <textarea class="form-control h-100" name="secret_key">{{ $data['paymentConfig']->where('slug', 'nowpayment')->first()->details ? $data['paymentConfig']->where('slug', 'nowpayment')->first()->details->secret_key : '' }}</textarea>
+                   <textarea class="form-control h-100" name="secret_key">{{ $data['paymentConfig']->where('slug', 'crypto')->first()->details ? $data['paymentConfig']->where('slug', 'crypto')->first()->details->secret_key : '' }}</textarea>
                </div>
            </div>
            <div class="modal-footer">

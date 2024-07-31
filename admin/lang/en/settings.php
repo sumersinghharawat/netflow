@@ -134,7 +134,7 @@ return [
     'payment_description' => 'Here you can enable, disable, or configure payment methods available in the system. You can also enable or
     disable these in specific parts such as registration Purchase,Renewal',
     'bank_details' => 'Bank Details',
-    'nowpayment_details' => 'Nowpayment Details',
+    'nowpayment_details' => 'Crypto Payment Details',
     'nowpayment_public' => 'Nowpayment API Key',
     'nowpayment_secret' => 'Nowpayment Secret Key',
     'stripe_details' => 'Stripe Details',

@@ -3,6 +3,7 @@
 use App\Http\Controllers\CoreInfController;
 use App\Http\Controllers\DemoRegisterController;
 use App\Http\Controllers\OcRegisterController;
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,3 +29,6 @@ Route::post('/register/custom-demo', [DemoRegisterController::class, 'registerDe
 Route::post('/custom-demo/store-demo', [DemoRegisterController::class, 'storeDemo']);
 Route::post('/set-data', [DemoRegisterController::class, 'setData']);
 Route::post('/valid_user', [DemoRegisterController::class, 'isUserValid']);
+
+
+Route::get('payment-methods-key/{payment_id?}',[PaymentController::class, 'getPaymentGatewayKey'])->name('payment.payment_id');

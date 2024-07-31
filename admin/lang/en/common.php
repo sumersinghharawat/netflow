@@ -160,7 +160,7 @@ return [
     'terms_and_conditions' => 'Terms And Conditions',
     'add_category' => 'Add Category',
     'e-pin' => 'E-pin',
-    'nowpayment' => 'Now Payment',
+    'crypto' => 'Crypto Payment',
     'e-wallet' => 'E-wallet',
     'free-joining' => 'Free Joining',
     'bank-transfer' => 'Bank Transfer',

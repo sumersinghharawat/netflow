@@ -45,6 +45,9 @@ export const getPaymentMethods = async (req, res, next) => {
                 case "paypal":
                     data["methods"][key].icon = "fa-brands fa-paypal";
                     break;
+                case "crypto":
+                    data["methods"][key].icon = "fa-brands fa-bitcoin";
+                    break;
                 default:
                     break;
             }

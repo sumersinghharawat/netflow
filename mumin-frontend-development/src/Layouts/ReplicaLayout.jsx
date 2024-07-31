@@ -138,7 +138,7 @@ function ReplicaLayout({ children }) {
           <div className="header__area-menubar p-relative">
             <div className="header__area-menubar-left">
               <div className="header__area-menubar-left-logo">
-                <a href="index.html">
+                <a href="/">
                   <img className="dark-n" src="/img/logo.png" alt="Logo" />
                   <img className="light-n" src="/img/logo.png" alt="Logo" />
                 </a>
@@ -361,7 +361,7 @@ function ReplicaLayout({ children }) {
             <div className="row">
               <div className="col-xl-12">
                 <p>
-                  Copyright 2023{" "}
+                  Copyright 2024{" "}
                   <a href="#home" onClick={() => handleNavLink}>
                     {companyDetails?.name}
                   </a>{" "}

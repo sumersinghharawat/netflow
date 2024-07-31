@@ -100,7 +100,14 @@ export const RegisterService = {
     return response;
   },
   getPaymentGatewayKey: async (paymentId) => {
-    const response = await callApi(`payment-gateway-key`+"?paymentMethod="+paymentId);
+    const nowpaymentKey = localStorage.getItem("nowpaymentKey");
+    const headers = {
+      'x-api-key': nowpaymentKey,
+      'Content-Type': 'application/json'
+    };
+
+    const response = await API.get(`payment-gateway-key`+"?paymentMethod="+paymentId,{headers:headers});
+    console.log(response);
     return response;
   },
 };

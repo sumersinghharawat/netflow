@@ -184,7 +184,7 @@ const LeftSection = ({
             )
           )}
         </ul>
-        {spclMenu &&
+        {/* {spclMenu &&
           (spclMenu?.ecomLink ? (
             <div
               className="support_menu_btn"
@@ -213,7 +213,7 @@ const LeftSection = ({
                 alt=""
               />
             </div>
-          ))}
+          ))} */}
       </nav>
     </aside>
   );

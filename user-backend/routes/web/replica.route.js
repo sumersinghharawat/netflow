@@ -21,6 +21,7 @@ router.get("/replica-register-get", getReplicaRegister);
 router.get('/replica-checkUsernameEmail', checkEmailUsername);
 router.post("/replica-register-post", replicaRegister);
 router.post("/create-payment-intent", createPaymentIntent);
+router.get("/payment-gateway-key", auth, getPaymentGatewayKey);
 
 
 export default router;

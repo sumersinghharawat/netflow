@@ -226,6 +226,13 @@
                 "title": "paypal",
                 "logo": "paypal.png",
                 "icon": "fa-brands fa-paypal"
+            },
+            {
+                "id": 7,
+                "code": "crypto",
+                "title": "crypto",
+                "logo": "nowpayment.png",
+                "icon": "fa-brands fa-bitcoin"
             }
         ],
         "regData": null

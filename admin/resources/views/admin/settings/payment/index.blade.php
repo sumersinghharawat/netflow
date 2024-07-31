@@ -71,7 +71,7 @@
                                                         data-bs-target="#stripeConfiguration"
                                                         data-bs-whatever="Stripe Configuration"
                                                         aria-controls="offcanvasRight"></a>
-                                                @elseif($payment->slug == 'nowpayment')
+                                                @elseif($payment->slug == 'crypto')
                                                     <a href="#" class="bx bx-cog" data-bs-toggle="offcanvas"
                                                         data-bs-target="#nowpaymentConfiguration"
                                                         data-bs-whatever="Nowpayment Configuration"
