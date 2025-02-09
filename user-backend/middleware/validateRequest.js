@@ -1,6 +1,5 @@
 export const validateRequest = (schema) => {
     return async (req, res, next) => {
-
         try {
             const { error } = schema.validate(req.body);
             if(error) {

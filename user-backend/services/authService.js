@@ -39,9 +39,6 @@ class authService {
             } else {
                 accessToken = await getJwtToken(tokenData);
             }
-
-            // console.log("accessToken",accessToken);
-
             return { status : true, accessToken};
         } catch (error) {
             logger.error("ERROR FROM getAccessToken",error);

@@ -103,6 +103,7 @@ router.patch("/change-user-password", auth, changeUserPassword);
 router.patch("/change-transaction-password", auth, changeTransactionPassword);
 router.patch("/update-additionalData", auth, updateCustomFieldValue);
 
+router.get("/payment-gateway-key", auth, getPaymentGatewayKey);
 router.get("/payment-methods", auth, getPaymentMethods);
 router.post("/check-epin-validity", auth, checkEpinValidity);
 

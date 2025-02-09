@@ -31,7 +31,7 @@ await addRoutesDynamically(app, path.join(__dirname, './routes/', 'web'),'/node_
 app.use(errorHandler);
 
 app.use((req, res) => {
-    res.status(200).json("Welcome to the application. No such Api.");
+    res.status(200).json("Welcome to the application. No such Api");
 });
 
 export default app;
